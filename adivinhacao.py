@@ -45,6 +45,8 @@ def jogar():
             pontos_perdidos = abs(numero_secreto - chute)
             pontos = pontos - pontos_perdidos
 
+    print("o número secreta era:", numero_secreto)
+
     print("Fim do jogo")
 if(__name__ == "__main__"):
     jogar()
